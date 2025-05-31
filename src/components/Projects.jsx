@@ -1,23 +1,26 @@
 import { motion } from "framer-motion";
+import amsImage from "../assets/ams.png";
+import gymAppImage from "../assets/gymapp.png";
+import yummisImage from "../assets/screens.png";
 
 const projects = [
   {
     title: "AMS Dentist",
     desc: "Role-based Flutter app for appointment booking, role access, Firebase, and real-time updates.",
     tech: ["Flutter", "Firebase", "Role-Based Access"],
-    image: "src/assets/ams.png",
+    image: amsImage,
   },
   {
     title: "Gym App UI",
     desc: "Clean and modern gym workout app UI with navigation and animation in Flutter.",
     tech: ["Flutter", "UI/UX"],
-    image: "src/assets/gymapp.png",
+    image: gymAppImage,
   },
   {
     title: "Yummis App",
     desc: "Flutter app for online food order and delivery",
     tech: ["Flutter", "SQLite", "API Integration"],
-    image: "src/assets/screens.png",
+    image: yummisImage,
   },
 ];
 

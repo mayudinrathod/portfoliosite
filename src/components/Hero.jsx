@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import heroImage from '../assets/hero.png'; // ✅ Correct relative import
 
 export default function Hero() {
   return (
@@ -37,7 +38,7 @@ export default function Hero() {
           >
             <img
               className="w-full rounded-lg shadow-lg"
-              src="src/assets/hero.png"
+              src={heroImage} // ✅ Use imported image here
               alt="Portfolio showcase"
             />
           </motion.div>
