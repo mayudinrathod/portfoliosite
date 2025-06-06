@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import heroImage from '../assets/hero.png'; // ✅ Correct relative import
+import heroImage from 'C:/Users/ASUS/OneDrive/Desktop/my-cv/cv-website-react/src/assets/hero.png'; // ✅ Correct relative import
 
 export default function Hero() {
   return (
