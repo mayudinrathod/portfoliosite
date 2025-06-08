@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import amsImage from "C:/Users/ASUS/OneDrive/Desktop/my-cv/cv-website-react/src/assets/ams.png";
-import gymAppImage from "C:/Users/ASUS/OneDrive/Desktop/my-cv/cv-website-react/src/assets/gymapp.png";
-import yummisImage from "C:/Users/ASUS/OneDrive/Desktop/my-cv/cv-website-react/src/assets/screens.png";
+import amsImage from "../assets/ams.png";
+import gymAppImage from "../assets/gymapp.png";
+import yummisImage from "../assets/screens.png";
 
 const projects = [
   {
